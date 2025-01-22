@@ -13,3 +13,23 @@ z = float(3)
 #variables are case-sensitive, so A =/= a
 #also, we can get their type by 
 print(type(x))
+
+# moreover, we can assign many values to multiple variables, or equate them all to one value, or unpack a collection. This is shown below. 
+
+"""
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+"""
