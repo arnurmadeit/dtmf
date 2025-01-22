@@ -33,3 +33,26 @@ print(x)
 print(y)
 print(z)
 """
+
+# also, we can use the print function in many different ways (note that string + int cannot be output)
+x = 5
+y = 10
+print(x + y)
+
+# or we could use 
+
+x = 5
+y = 10
+print(x, y)
+
+# using functions and the keyword "global", we can dabble with global variables 
+
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
