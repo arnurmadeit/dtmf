@@ -6,5 +6,3 @@ def gram_to_ounce(grams):
 grams = float(input("Enter the grams: "))
 
 print(f'{grams} grams is equal to {gram_to_ounce(grams)} ounces')
-
-#testcommit 123
