@@ -15,7 +15,6 @@ right_hand = pygame.image.load("min_hand.png").convert_alpha()  # Minutes
 center = (300, 300)
 
 def rotate_hand(image, angle, pivot):
-    """Rotate image around its center and return new image and rect."""
     rotated_image = pygame.transform.rotate(image, -angle)
     new_rect = rotated_image.get_rect(center=pivot)
     return rotated_image, new_rect
